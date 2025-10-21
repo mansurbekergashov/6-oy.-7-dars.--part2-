@@ -1,4 +1,6 @@
 import style from "./Card5.module.css";
+import img from "/src/assets/card-5-img.svg"
+
 
 export default function Card5() {
   return (
@@ -7,7 +9,7 @@ export default function Card5() {
       <div className={style.profileWrapper}>
         <img
           className={style.cardImg}
-          src="./public/images/card-5-img.svg"
+          src={img}
           alt="Img"
         />
         <div className={style.profile}>
