@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background-color: #48556A;
+    width: 255px;
+    border-radius: 10px;
+
+    @media (max-width: 500px) {
+        width: 300px;
+    }
+}
+
+.profileWrapper{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-left: 32px;
+    padding-top: 26px;
+}
+
+.cardImg{
+    width: 32px;
+    height: 32px;
+}
+
+.profileName{
+    margin-bottom: 4px;
+    font-size: 13px;
+    font-family: "Barlow Semi Condensed";
+    color: #fff;
+}
+.profileStatus{
+    font-size: 11px;
+    font-family: "Barlow Semi Condensed";
+    color: #fff;
+    opacity: 60%;
+}
+
+.cardTitle{
+    font-size: 20px;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 18px;
+    margin-bottom: 16px;
+    font-family: "Barlow Semi Condensed";
+    color: #fff;
+    z-index: 100;
+}
+.cardText{
+    font-size: 13px;
+    margin-left: 32px;
+    font-family: "Barlow Semi Condensed";
+    color: #fff;
+    margin-right: 32px;
+    opacity: 60%;
+    margin-bottom: 32px;
+
+    @media (max-width: 500px) {
+        margin-bottom: 32px;
+    }
+}
